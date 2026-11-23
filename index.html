@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>זוגיות היא חלק מהחיים. גם מהליווי. | מדריך עבודה | פורום נראות</title>
+<meta name="description" content="כלי לפתיחת שיחה, זיהוי סימנים מדאיגים ותגובה ראשונית בעבודה עם צעירים וצעירות. פורום נראות בשיתוף קווים אדומים.">
+<link rel="preload" href="fonts/heebo-hebrew.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/assistant-hebrew.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="guide.css">
+</head>
+<body>
+<a class="skip" href="#main">דילוג לתוכן המרכזי</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="פורום נראות – חזרה לראש המדריך">
+      <img class="logo-img" src="assets/logo-niroot-trim.png" alt="פורום נראות – ארגונים למען צעירים וצעירות במצבי סיכון" width="472" height="292">
+      <span class="brand-name">זוגיות מיטיבה<small>מדריך עבודה</small></span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="פרקי המדריך">
+      <a href="#ch1"><span class="n">01</span>לפתוח שיחה</a>
+      <a href="#ch2"><span class="n">02</span>לשים לב</a>
+      <a href="#ch3"><span class="n">03</span>להגיב</a>
+      <a href="#ch4"><span class="n">04</span>להתייעץ</a>
+      <a href="#ch5"><span class="n">05</span>עקרונות</a>
+      <a href="#ch6"><span class="n">06</span>כרטיסיות</a>
+    </nav>
+    <div class="header-actions">
+      <div class="need">
+        <button class="btn coral" id="needBtn" aria-expanded="false" aria-controls="needPanel">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.01" stroke-linecap="round"/></svg>
+          <span class="need-label">מה אני צריך/ה עכשיו?</span>
+          <span class="sr-only">מה אני צריך/ה עכשיו?</span>
+        </button>
+        <div class="need-panel" id="needPanel" role="region" aria-label="כניסות מהירות לפי מצב">
+          <h2>בחרו את המצב שבו אתם נמצאים</h2>
+          <a class="need-opt" href="#ch1"><span class="dot" style="background:var(--sky)">1</span><strong>אני רוצה לפתוח שיחה על זוגיות</strong><span>משפטי פתיחה ושאלות שאפשר לשלב בשיחת ליווי.</span></a>
+          <a class="need-opt" href="#ch2"><span class="dot" style="background:var(--orange)">2</span><strong>משהו בהתנהגות מעורר בי דאגה</strong><span>מצבים שכדאי לשים לב אליהם והבחנה בין סימן לבין אבחנה.</span></a>
+          <a class="need-opt" href="#ch3"><span class="dot" style="background:var(--sage)">3</span><strong>צעיר או צעירה שיתפו אותי בקושי</strong><span>איך להגיב, מה לומר ומתי להתייעץ.</span></a>
+        </div>
+      </div>
+      <button class="btn icon-btn" id="printGuide" aria-label="הדפסת המדריך או שמירה כ-PDF" title="הדפסה / שמירה כ-PDF">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M7 9V3h10v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg>
+      </button>
+      <button class="btn icon-btn menu-toggle" id="menuBtn" aria-expanded="false" aria-controls="mainNav" aria-label="פתיחת תפריט הפרקים">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+</header>
+
+<main id="main">
+<!-- ============ HERO ============ -->
+<section class="hero" id="top" data-screen-label="00 פתיחה">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">מדריך עבודה | פורום נראות בשיתוף קווים אדומים</p>
+        <h1>זוגיות היא חלק מהחיים. <span class="accent">גם מהליווי.</span></h1>
+        <p class="sub">מדריך עבודה לאנשי ונשות מקצוע המלווים צעירים וצעירות</p>
+        <p class="lede">זוגיות יכולה להיות מקור לקרבה, תמיכה ושייכות, אך לעיתים גם להפוך למרחב שבו מתפתחים דפוסים של שליטה, פגיעה וצמצום חופש הבחירה.</p>
+        <div class="key-msg" role="note">
+          <span class="q" aria-hidden="true">”</span>
+          <p>לא צריך לחכות לסימן מדאיג כדי לדבר על זוגיות.</p>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <span class="ring"></span>
+        <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><span class="blob b4"></span>
+        <span class="tag t1">קרבה</span><span class="tag t2">תמיכה</span><span class="tag t3">שייכות</span>
+      </div>
+    </div>
+
+    <nav class="quick" aria-label="שלוש כניסות מהירות">
+      <a class="q1" href="#ch1"><span class="k">פרק 1</span><strong>לפתוח שיחה</strong><span>שאלות ומשפטי פתיחה לשילוב טבעי בשיחת הליווי.</span><i class="arr" aria-hidden="true">←</i></a>
+      <a class="q2" href="#ch2"><span class="k">פרק 2</span><strong>לשים לב לדפוסים</strong><span>שבעה מצבים שיכולים לעורר שאלה, ומה ההקשר שחשוב לבחון.</span><i class="arr" aria-hidden="true">←</i></a>
+      <a class="q3" href="#ch3"><span class="k">פרקים 3–4</span><strong>להציע תמיכה והכוונה</strong><span>איך מגיבים כשעולה חשש, ומתי מערבים גורם מקצועי נוסף.</span><i class="arr" aria-hidden="true">←</i></a>
+    </nav>
+
+    <nav class="toc" aria-labelledby="tocTitle">
+      <h2 id="tocTitle">ששת פרקי המדריך</h2>
+      <ol>
+        <li><a href="#ch1"><span class="n">01</span>איך מתחילים לדבר על זוגיות?</a></li>
+        <li><a href="#ch2"><span class="n">02</span>למה כדאי לשים לב?</a></li>
+        <li><a href="#ch3"><span class="n">03</span>איך מגיבים כשעולה חשש?</a></li>
+        <li><a href="#ch4"><span class="n">04</span>מתי מערבים גורם מקצועי?</a></li>
+        <li><a href="#ch5"><span class="n">05</span>עקרונות לעבודה</a></li>
+        <li><a href="#ch6"><span class="n">06</span>כרטיסיות לשיחה</a></li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="chapter tint" id="about" aria-labelledby="aboutTitle" data-screen-label="00b על המדריך">
+  <div class="wrap">
+    <div class="ch-head">
+      <span class="ch-num" aria-hidden="true">00</span>
+      <span class="ch-kicker">על המדריך</span>
+      <h2 id="aboutTitle">למה לדבר על זוגיות?</h2>
+    </div>
+    <div class="ch-intro">
+      <div class="text">
+        <p class="lead-strong">זוגיות היא חלק משמעותי מחייהם של צעירים וצעירות. היא יכולה להיות מקור לקרבה, תמיכה ושייכות, אך לעיתים גם להפוך למרחב שבו מתפתחים דפוסים של שליטה, פגיעה וצמצום חופש הבחירה.</p>
+        <p>עבור צעירים וצעירות המתמודדים עם מצבי סיכון, מעברים משמעותיים בחיים או היעדר עורף משפחתי, לקשר הזוגי עשויה להיות השפעה משמעותית במיוחד. לעיתים בן או בת הזוג הם מקור התמיכה המרכזי, והקשר משפיע גם על קשרים חברתיים, לימודים, תעסוקה, עצמאות כלכלית ותחושת הביטחון.</p>
+      </div>
+      <figure class="domains" aria-label="תרשים: תחומי חיים שקשר זוגי עשוי להשפיע עליהם – קשרים חברתיים, לימודים, תעסוקה, מגורים, עצמאות כלכלית, תחושת ביטחון וקבלת החלטות">
+        <span class="orbit" style="inset:6%"></span>
+        <span class="core">הקשר<br>הזוגי</span>
+        <span class="d" style="left:50%;top:6%">קשרים חברתיים</span>
+        <span class="d" style="left:84.4%;top:22.6%">לימודים</span>
+        <span class="d" style="left:92.9%;top:59.8%">תעסוקה</span>
+        <span class="d" style="left:69.1%;top:89.6%">מגורים</span>
+        <span class="d" style="left:30.9%;top:89.6%">עצמאות כלכלית</span>
+        <span class="d" style="left:7.1%;top:59.8%">תחושת ביטחון</span>
+        <span class="d" style="left:15.6%;top:22.6%">קבלת החלטות</span>
+      </figure>
+    </div>
+
+    <p class="roles-title">אנשי ונשות שטח המלווים צעירים וצעירות לאורך זמן נמצאים בעמדה חשובה. הם יכולים:</p>
+    <div class="roles">
+      <div><span class="rn">01</span><strong>לאפשר שיחה פתוחה ולא שיפוטית על זוגיות</strong></div>
+      <div><span class="rn">02</span><strong>להבחין בשינויים ובהתנהגויות שמעוררות דאגה</strong></div>
+      <div><span class="rn">03</span><strong>להציע תמיכה והכוונה כשעולה צורך</strong></div>
+    </div>
+
+    <div class="note clarify" role="note">
+      <span class="ic" aria-hidden="true">i</span>
+      <div><span class="lbl">הבהרה</span><p>המדריך אינו מיועד ללמד אנשי ונשות שטח לאבחן אלימות בזוגיות או להחליף הכשרה מקצועית בתחום. מטרתו לסייע לפתוח שיחה, להבחין בסימנים שמצריכים תשומת לב, להגיב באופן שאינו שיפוטי ולדעת מתי ואיך לערב גורם מקצועי נוסף.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CH 1 ============ -->
+<section class="chapter" id="ch1" aria-labelledby="ch1Title" data-screen-label="01 לפתוח שיחה">
+  <div class="wrap">
+    <div class="ch-head">
+      <span class="ch-num" aria-hidden="true">01</span>
+      <span class="ch-kicker">פרק 1 · לפתוח שיחה</span>
+      <h2 id="ch1Title">איך מתחילים לדבר על זוגיות, ולמה זה חשוב?</h2>
+    </div>
+    <div class="ch-intro">
+      <div class="text">
+        <p>זוגיות היא חלק משמעותי מחייהם של צעירים וצעירות, אבל לא תמיד היא מקבלת מקום בשיחות הליווי והעבודה איתם. לעיתים אנחנו מתמקדים בתעסוקה, לימודים, דיור, קשרים משפחתיים והתנהלות יומיומית, ושוכחים שגם הקשר הזוגי משפיע על תחומים רבים בחיים.</p>
+        <p>קשר זוגי יכול להיות מקור לתמיכה, שייכות וביטחון, אבל הוא עשוי גם להשפיע על תחושת העצמאות, על הקשרים החברתיים, על קבלת ההחלטות ועל היכולת להתקדם לעבר מטרות אישיות.</p>
+      </div>
+      <div class="text">
+        <p class="lead-strong">דווקא משום כך, חשוב לאפשר שיחה על זוגיות גם כשלא עולה קושי או חשש.</p>
+        <p>לא צריך לחכות לסימן מדאיג או לחשיפה של פגיעה. אפשר לדבר על זוגיות כחלק טבעי מהשיחה על החיים, על קשרים משמעותיים ועל הדברים שחשובים לצעירים ולצעירות.</p>
+      </div>
+    </div>
+
+    <h3 class="sub-h">אז איך מכניסים את הנושא לשיחה?</h3>
+    <p>אפשר להתחיל מתוך נושאים שכבר עולים במפגש הליווי. לחצו על כרטיסייה כדי לראות את השאלה:</p>
+    <button class="btn expand-all" id="expandCtx" aria-pressed="false">הצגת כל השאלות</button>
+    <div class="ctx-grid">
+      <details class="ctx"><summary><span class="ctx-k">כשמדברים על</span><span class="ctx-t">תוכניות לעתיד</span><span class="plus"><i aria-hidden="true">+</i>השאלה</span></summary>
+        <div class="q-body"><blockquote>כשאת/ה חושב/ת על התקופה הקרובה, איזה מקום יש לזוגיות או לקשר שלך בתוכניות האלה?</blockquote></div><span class="bar" style="background:var(--sky)"></span></details>
+      <details class="ctx"><summary><span class="ctx-k">כשמדברים על</span><span class="ctx-t">חברים וקשרים חברתיים</span><span class="plus"><i aria-hidden="true">+</i>השאלה</span></summary>
+        <div class="q-body"><blockquote>איך את/ה מצליח/ה לשלב בין זוגיות, חברים וזמן לעצמך?</blockquote></div><span class="bar" style="background:var(--sage)"></span></details>
+      <details class="ctx"><summary><span class="ctx-k">כשמדברים על</span><span class="ctx-t">עצמאות וקבלת החלטות</span><span class="plus"><i aria-hidden="true">+</i>השאלה</span></summary>
+        <div class="q-body"><blockquote>עד כמה חשוב לך לשמור על העצמאות שלך גם כשאת/ה בתוך קשר זוגי?</blockquote></div><span class="bar" style="background:var(--orange)"></span></details>
+      <details class="ctx"><summary><span class="ctx-k">כשמדברים על</span><span class="ctx-t">התמודדות עם קונפליקטים</span><span class="plus"><i aria-hidden="true">+</i>השאלה</span></summary>
+        <div class="q-body"><blockquote>כשיש אי הסכמה עם מישהו שקרוב אליך, איך בדרך כלל מתמודדים עם זה?</blockquote></div><span class="bar" style="background:var(--coral)"></span></details>
+      <details class="ctx"><summary><span class="ctx-k">כשמדברים על</span><span class="ctx-t">תמיכה ומקורות כוח</span><span class="plus"><i aria-hidden="true">+</i>השאלה</span></summary>
+        <div class="q-body"><blockquote>מי האנשים שאת/ה מרגיש/ה שאפשר להישען עליהם כשקשה לך?</blockquote></div><span class="bar" style="background:var(--teal)"></span></details>
+    </div>
+
+    <div class="big-quote">
+      <span class="mark" aria-hidden="true">”</span>
+      <div>
+        <span class="lbl">אפשר גם להתחיל באופן ישיר ופשוט:</span>
+        <p id="openLine">אנחנו מדברים כאן על הרבה תחומים בחיים, וחשבתי שגם זוגיות היא חלק מהם. מעניין אותי לשמוע איך את/ה חווה את הנושא הזה.</p>
+        <button class="btn copy-btn" data-copy="#openLine">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></svg>
+          העתקת המשפט
+        </button>
+      </div>
+    </div>
+
+    <h3 class="sub-h">כמה עקרונות שיעזרו לפתוח שיחה</h3>
+    <ul class="principles">
+      <li>לא צריך לחכות שמשהו יהיה לא בסדר כדי לדבר על זוגיות.</li>
+      <li>אין צורך להניח שלצעיר או לצעירה יש קשר זוגי כרגע. אפשר לדבר גם על תפיסות, ציפיות וקשרים משמעותיים.</li>
+      <li>כדאי לשלב את השיחה באופן טבעי בתוך הליווי, ולא להפוך אותה לשיחה מיוחדת או לחקירה.</li>
+      <li>אפשר להתחיל בשאלה כללית, להקשיב ולתת לצעיר או לצעירה להחליט אם וכמה לשתף.</li>
+      <li>חשוב לא להניח מראש איך נראית זוגיות, ולתת מקום למגוון סוגי קשרים וחוויות.</li>
+    </ul>
+
+    <div class="note goal" role="note" style="margin-top:28px">
+      <span class="ic" aria-hidden="true">◎</span>
+      <p>המטרה אינה לייצר שיחה על אלימות, אלא לפתוח מרחב שבו אפשר לדבר על זוגיות, על צרכים, על גבולות ועל מה גורם לנו להרגיש טוב ובטוח בתוך קשר.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CH 2 ============ -->
+<section class="chapter tint" id="ch2" aria-labelledby="ch2Title" data-screen-label="02 לשים לב">
+  <div class="wrap">
+    <div class="ch-head">
+      <span class="ch-num" aria-hidden="true">02</span>
+      <span class="ch-kicker">פרק 2 · לשים לב לדפוסים</span>
+      <h2 id="ch2Title">למה כדאי לשים לב? מצבים שיכולים לעורר שאלה</h2>
+    </div>
+    <div class="ch-intro">
+      <div class="text"><p class="lead-strong">אלימות בזוגיות אינה מתבטאת רק בפגיעה פיזית. היא יכולה להתבטא גם בהתנהגויות של שליטה, פיקוח, השפלה, הפחדה, בידוד או פגיעה בעצמאות.</p></div>
+      <div class="text"><p>לפעמים אפשר להבחין בשינויים בהתנהגות או בשגרת החיים של הצעיר או הצעירה. השינויים אינם בהכרח קשורים לזוגיות, אך אם הם מופיעים לצד סימנים נוספים, או אם עולה תחושה של פחד, לחץ או צמצום חופש הבחירה, כדאי לעצור ולברר בעדינות.</p></div>
+    </div>
+
+    <h3 class="sub-h">דוגמאות למצבים שיכולים להצדיק תשומת לב</h3>
+    <div class="signs-grid" id="signsGrid"><!-- rendered by guide.js --></div>
+
+    <div class="not-proof">
+      <div class="stmt" role="note">
+        <span class="lbl">חשוב לזכור</span>
+        <p>אף אחד מהמצבים האלה, כשהוא מופיע לבדו, אינו מוכיח שקיימת אלימות בזוגיות.</p>
+        <small>למשל, שיתוף מיקום, שינוי בתדירות המפגשים עם חברים או ויכוח על כסף אינם מעידים כשלעצמם על קשר פוגעני.</small>
+      </div>
+      <div class="spectrum">
+        <h3>כדאי לבחון את ההקשר</h3>
+        <p class="hint">אותה התנהגות יכולה להיראות אחרת לגמרי, תלוי מאיפה היא מגיעה:</p>
+        <div class="spec-bar" aria-hidden="true"></div>
+        <div class="spec-cols">
+          <div class="ok"><strong>בחירה חופשית</strong><p>ההתנהגות נעשית מתוך בחירה חופשית והסכמה הדדית</p></div>
+          <div class="no"><strong>לחץ ופחד</strong><p>ההתנהגות נעשית מתוך לחץ, פחד, איום או תחושה שאין אפשרות לסרב</p></div>
+        </div>
+        <p class="spec-same">השאלה אינה רק "מה קורה", אלא "האם יש אפשרות לסרב?"</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CH 3 ============ -->
+<section class="chapter" id="ch3" aria-labelledby="ch3Title" data-screen-label="03 להגיב">
+  <div class="wrap">
+    <div class="ch-head">
+      <span class="ch-num" aria-hidden="true">03</span>
+      <span class="ch-kicker">פרק 3 · תגובה ראשונית</span>
+      <h2 id="ch3Title">איך מגיבים כשעולה חשש?</h2>
+    </div>
+    <div class="ch-intro">
+      <div class="text"><p class="lead-strong">אם צעיר או צעירה משתפים בקושי בזוגיות, או אם עולה חשש מתוך שיחה או התבוננות, התגובה הראשונית שלנו יכולה להשפיע על הנכונות שלהם להמשיך ולשתף.</p></div>
+      <div class="text"><p>לא צריך לפתור את המצב או לקבל החלטות עבורם. התפקיד שלנו הוא להקשיב, לתת מקום לחוויה, לברר מה הם צריכים ולסייע להם לחשוב על אפשרויות תמיכה.</p></div>
+    </div>
+
+    <h3 class="sub-h">מה כדאי לעשות? חמישה שלבים</h3>
+    <div class="stepper" id="stepper"><!-- rendered by guide.js --></div>
+
+    <div class="avoid">
+      <div class="avoid-head"><span class="x" aria-hidden="true">✕</span><h3>ממה כדאי להימנע?</h3></div>
+      <ul>
+        <li>לא לומר "פשוט תיפרדו" או "למה את/ה נשאר/ת שם?"</li>
+        <li>לא להאשים את הצעיר או הצעירה בבחירות שלהם או בהתנהגות של בן או בת הזוג.</li>
+        <li>לא להקטין את החוויה באמצעות אמירות כמו "כולם רבים לפעמים".</li>
+        <li>לא להתעמת עם בן או בת הזוג ולא לנסות לתווך ביניהם ללא הערכה והנחיה מקצועית מתאימה.</li>
+        <li>לא להבטיח סודיות מוחלטת לפני שמכירים את נהלי הארגון ואת חובות הדיווח החלות במצב.</li>
+        <li>לא להפעיל לחץ לחשיפה או לבקש פרטים שאינם נחוצים לתגובה הראשונית.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CH 4 ============ -->
+<section class="chapter tint" id="ch4" aria-labelledby="ch4Title" data-screen-label="04 להתייעץ">
+  <div class="wrap">
+    <div class="ch-head">
+      <span class="ch-num" aria-hidden="true">04</span>
+      <span class="ch-kicker">פרק 4 · התייעצות והפניה</span>
+      <h2 id="ch4Title">מתי ואיך מערבים גורם מקצועי נוסף?</h2>
+    </div>
+    <p class="lead-strong" style="max-width:60ch;margin-bottom:36px">אנשי ונשות שטח אינם צריכים להישאר לבד עם חשש שעולה. התייעצות עם גורם מקצועי בתחום האלימות בזוגיות יכולה לעזור להבין כיצד נכון להמשיך, מה חשוב לברר ואילו מענים אפשר להציע.</p>
+
+    <div class="consult">
+      <div class="when">
+        <h3>מומלץ להתייעץ כאשר:</h3>
+        <ul>
+          <li>הצעיר או הצעירה משתפים בפגיעה, באיומים, בהפחדה או בשליטה.</li>
+          <li>עולה חשש למעקב, בידוד, כפייה או פגיעה מתמשכת בפרטיות ובחופש הבחירה.</li>
+          <li>ניכרת מצוקה משמעותית או פגיעה בתפקוד, ויש חשש שהיא קשורה לקשר הזוגי.</li>
+          <li>הצעיר או הצעירה מביעים פחד מבן או בת הזוג או חוששים מהתגובה שלהם.</li>
+          <li>אינכם בטוחים כיצד להגיב, מה נכון לשאול או כיצד להציע עזרה.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="font-size:22px;margin-bottom:16px">מה כדאי לעשות בפועל?</h3>
+        <ol class="flow">
+          <li><div class="fb"><strong>להתייעץ בתוך הארגון</strong><p>לפנות למנהלת, למדריך/ה או לגורם המקצועי האחראי בהתאם לנהלים.</p></div></li>
+          <li><div class="fb"><strong>לפנות להתייעצות מקצועית בתחום</strong><p>אפשר להתייעץ עם מוקד 118 של משרד הרווחה, או עם גורם טיפולי המתמחה באלימות במשפחה ובזוגיות.</p></div></li>
+          <li><div class="fb"><strong>לחשוב יחד על המשך בטוח</strong><p>בהתאם לצורך ולרצון הצעיר או הצעירה, לבחון אפשרויות ליווי, תמיכה והפניה לשירותים מתאימים.</p></div></li>
+          <li><div class="fb"><strong>לתעד באופן ענייני ודיסקרטי</strong><p>בהתאם לנהלי הארגון, לתעד מידע רלוונטי ועובדתי, תוך שמירה על פרטיות.</p></div></li>
+        </ol>
+      </div>
+    </div>
+
+    <section class="emergency" aria-labelledby="emTitle">
+      <div class="em-head"><h3 id="emTitle">מידע לסיוע ולמצבי חירום</h3><span class="pill">לשמור בהישג יד</span></div>
+      <div class="em-grid">
+        <div class="em-item">
+          <span class="em-l">סכנה מיידית לחיים או לשלום הגוף</span>
+          <a class="num" href="tel:100" aria-label="חיוג למשטרה, 100">100</a>
+          <p>יש לפנות למשטרה בטלפון 100.</p>
+        </div>
+        <div class="em-item">
+          <span class="em-l">מוקד 118 של משרד הרווחה</span>
+          <a class="num" href="tel:118" aria-label="חיוג למוקד 118 של משרד הרווחה">118</a>
+          <p>ניתן לפנות לקבלת מידע, הכוונה וסיוע ראשוני.</p>
+        </div>
+        <div class="em-item">
+          <span class="em-l">אם לא ניתן לדבר בבטחה</span>
+          <a class="num sm" href="sms:0502270118" aria-label="שליחת הודעת טקסט למספר 050-2270118">050-2270118</a>
+          <p>אפשר לשלוח הודעת טקסט למספר זה.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="note warn legal" role="note">
+      <span class="ic" aria-hidden="true">!</span>
+      <div><span class="lbl">נהלים וחובות דיווח</span><p>חשוב להכיר מראש את נהלי הארגון ואת חובות הדיווח הרלוונטיות. כאשר מעורבים קטינים או אנשים במצבים המחייבים דיווח על פי דין, יש לפעול בהתאם לחוק ולהנחיות הגורמים המוסמכים.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CH 5 ============ -->
+<section class="chapter" id="ch5" aria-labelledby="ch5Title" data-screen-label="05 עקרונות">
+  <div class="wrap">
+    <div class="ch-head">
+      <span class="ch-num" aria-hidden="true">05</span>
+      <span class="ch-kicker">פרק 5 · עקרונות עבודה</span>
+      <h2 id="ch5Title">עקרונות שכדאי לזכור בעבודה עם צעירים וצעירות</h2>
+    </div>
+    <div class="pr-grid">
+      <article class="pr"><span class="pn">01</span><h3>לא צריך להיות מומחים בתחום כדי לפתוח שיחה.</h3><p>נוכחות, הקשבה ושאלה רגישה יכולות להיות התחלה משמעותית.</p></article>
+      <article class="pr"><span class="pn">02</span><h3>לא כל קושי בזוגיות הוא אלימות.</h3><p>חשוב לבחון דפוסים, הקשר, תחושת ביטחון וחופש בחירה.</p></article>
+      <article class="pr"><span class="pn">03</span><h3>לא צריך ודאות כדי להתייעץ.</h3><p>אם משהו מעורר דאגה, אפשר ורצוי להיעזר בגורם מקצועי.</p></article>
+      <article class="pr"><span class="pn">04</span><h3>הבחירה נשארת בידי הצעיר או הצעירה.</h3><p>יש לכבד את הקצב ואת ההחלטות שלהם, תוך התייחסות לסוגיות בטיחות וסיכון.</p></article>
+      <article class="pr"><span class="pn">05</span><h3>לא נשארים לבד עם חשש.</h3><p>מתייעצים ופועלים בהתאם לנהלי הארגון.</p></article>
+      <article class="pr"><span class="pn">06</span><h3>אין מודל אחד של זוגיות או של פגיעה.</h3><p>חשוב להיות רגישים למגוון זהויות, סוגי קשרים, הקשרים תרבותיים ומצבי חיים, ולא להניח שכל הצעירים והצעירות חווים זוגיות באותו אופן.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CH 6 ============ -->
+<section class="chapter tint" id="ch6" aria-labelledby="ch6Title" data-screen-label="06 כרטיסיות">
+  <div class="wrap">
+    <div class="ch-head">
+      <span class="ch-num" aria-hidden="true">06</span>
+      <span class="ch-kicker">פרק 6 · כלי עבודה עצמאי</span>
+      <h2 id="ch6Title">כרטיסיות לשיחה: מה מתחיל זוגיות מיטיבה?</h2>
+    </div>
+    <p class="cc-use">הכרטיסיות נועדו לשמש כלי עזר לפתיחת שיחה אישית או קבוצתית. אפשר לבחור כרטיסייה אחת שמתאימה למפגש, להציג את השאלה ולתת לצעירים ולצעירות מקום לחשוב, לשתף ולהביע עמדות.</p>
+
+    <div class="cards-toolbar" role="toolbar" aria-label="פעולות על הכרטיסיות">
+      <button class="btn solid" id="randomCard">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h3l10 10h3M4 17h3l3-3M14 10l3-3h3M18 4l2 3-2 3M18 14l2 3-2 3"/></svg>
+        בחרו כרטיסייה אקראית
+      </button>
+      <span class="hint">או לחצו על כרטיסייה לתצוגה גדולה</span>
+      <span class="sp"></span>
+      <a class="btn" href="cards.html?print=1" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M7 9V3h10v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg>
+        <span class="print-label">הדפסת כל הכרטיסיות</span><span class="sr-only">הדפסת כל הכרטיסיות</span>
+      </a>
+      <a class="btn" href="cards.html" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+        הורדה כ-PDF
+      </a>
+    </div>
+
+    <div class="cc-grid" id="ccGrid"><!-- rendered by guide.js --></div>
+  </div>
+</section>
+
+<!-- ============ CLOSING ============ -->
+<section class="closing" id="closing" aria-labelledby="closeTitle" data-screen-label="07 לסיום">
+  <div class="wrap">
+    <span class="ch-kicker">לסיום</span>
+    <h2 id="closeTitle">הם לא לבד. וגם אתם לא.</h2>
+    <div class="closing-grid">
+      <div>
+        <p>המפגש עם צעיר או צעירה סביב זוגיות לא חייב להתחיל מתוך חשד או מתוך שיחה על אלימות. הוא יכול להתחיל בשאלה פשוטה על מה חשוב להם בקשר, מה מאפשר להם להרגיש בטוחים ואיך נראית בעיניהם זוגיות מיטיבה.</p>
+        <p>היכולת שלנו להיות כתובת קשובה, לא שיפוטית ונגישה יכולה לאפשר שיתוף, לחזק תחושת בחירה ולסייע בחיבור למענה מקצועי כשעולה צורך.</p>
+      </div>
+      <p class="final">המטרה אינה לאבחן את הקשר, אלא לאפשר לצעירים ולצעירות לדבר עליו, לזהות מה נכון להם ולדעת שהם לא לבד.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer" data-screen-label="08 קרדיט">
+  <div class="wrap">
+    <span class="logo-tile"><img src="assets/logo-niroot-trim.png" alt="פורום נראות – ארגונים למען צעירים וצעירות במצבי סיכון" width="472" height="292"></span>
+    <div class="credit">
+      <p><strong>זוגיות מיטיבה: כלי לפתיחת שיחה ולתגובה ראשונית</strong><br>מדריך עבודה לאנשי ונשות שטח | פורום נראות בשיתוף קווים אדומים</p>
+      <p>מדריך זה פותח ונוסח על ידי פורום נראות (רשת הארגונים לקידום צעירים וצעירות במצבי סיכון) במסגרת מהלך המודעות למניעת אלימות בזוגיות צעירה, בשיתוף פעולה עם יוזמת קווים אדומים.</p>
+      <p>התכנים והתרחישים במדריך מבוססים על ידע שדה מצטבר של ארגוני הפורום, על מודל הזיהוי המוקדם של יוזמת קווים אדומים, ובהשראת הידע המקצועי המונגש על ידי פורום מיכל סלה לזיהוי תמרורי אזהרה בזוגיות.</p>
+      <p class="terms"><strong>תנאי שימוש:</strong> המדריך מיועד לשימוש חופשי, פנימי ומקצועי של ארגוני פורום נראות וצוותי השטח המלווים צעירים וצעירות. אין לעשות בחוברת שימוש מסחרי. בכל פרסום או ציטוט מתוך המדריך, יש לציין קרדיט לפורום נראות וליוזמת קווים אדומים.</p>
+    </div>
+    <nav class="foot-links" aria-label="קישורים מהירים">
+      <a href="#about">על המדריך</a><a href="#ch1">לפתוח שיחה</a><a href="#ch2">לשים לב</a><a href="#ch3">להגיב</a><a href="#ch4">להתייעץ</a><a href="#ch5">עקרונות</a><a href="#ch6">כרטיסיות</a><a href="cards.html">כרטיסיות להדפסה</a>
+    </nav>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="חזרה לראש העמוד">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<dialog class="card-modal" id="cardModal" aria-labelledby="cmTitle">
+  <div class="cm-inner" id="cmInner">
+    <button class="cm-close" id="cmClose" aria-label="סגירת הכרטיסייה">✕</button>
+    <span class="cm-n" id="cmN"></span>
+    <h2 id="cmTitle"></h2>
+    <p class="cm-text" id="cmText"></p>
+    <div class="cm-q"><b>שאלה לשיחה</b><span id="cmQ"></span></div>
+    <div class="cm-nav">
+      <button class="btn" id="cmPrev" aria-label="הכרטיסייה הקודמת">→ הקודמת</button>
+      <div class="cm-dots" id="cmDots" aria-hidden="true"></div>
+      <button class="btn" id="cmNext" aria-label="הכרטיסייה הבאה">הבאה ←</button>
+    </div>
+  </div>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="guide-data.js"></script>
+<script src="guide.js"></script>
+</body>
+</html>
